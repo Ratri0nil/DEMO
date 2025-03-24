@@ -1,0 +1,28 @@
+git config --global user.name "enter name"
+git config --global user.email "email id"
+git config --list
+
+git --version :TO CHECK GIT'S version
+
+git clone "repository's link" : COPY REPO FROM GITHUB TO PC
+git status : DISPLAY STATUS OF CONTENTS IN FILE
+{
+    untracked: NEW FILES 
+    modified: CHANGES IN FILE
+    staged: READY TO COMMIT
+}
+
+git add "file's name" : ADD NEW/MODIFIED FILE IN WORKING DIRECTORY TO STAGING AREA
+git add . : ADD NEW/MODIFIED ALL FILE IN WORKING DIRECTORY TO STAGING AREA
+git commit : RECORD OF CHANGE
+
+git push origin main : UPLOAD REPO FROM PC TO GITHUB
+
+git init : MAKE LOCAL FILE INTO GIT FILES
+git remote add origin "repository link"
+git remote -v 
+git branch 
+git push -u origin main OR git push orign main
+
+git reset "file name": UNDO CHANGES OF A FILE
+git reset : UNDO CHANGES OF ALL FILES
